@@ -1,0 +1,95 @@
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #ffae0076;
+    flex-direction: column;
+}
+p {
+    margin: 0;
+    padding: 0;
+}
+.main_counter {
+    display: flex;
+    justify-content: space-between;
+    gap: 90px;
+}
+.single_counter{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.single_counter h1 {
+    width: 150px;
+    height: 150px;
+    border: 10px solid rgba(223, 228, 225, 0.411);
+    background-color: rgba(255, 255, 255, 0.888);
+    box-shadow: 0px 0px 49px 0px rgba(0,0,0,0.45) inset;
+    font-size: 35px;
+    font-weight: 700;
+    font-family: sans-serif;
+    /* text-align: center; */
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 200px;
+    color: #3c3a3aa1;
+    border-radius: 50%;
+}
+.single_counter input {
+    border: 3px solid rgb(25, 204, 49);
+    outline: none;
+    width: 158px;
+    height: 25px;
+    border-radius: 10px 0 10px 0;
+    padding-left: 10px;
+}
+.single_counter button {
+    padding: 8px 10px;
+    background-color: rgba(253, 0, 21, 0.505);
+    font-size: 13px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all linear .1s;
+}
+.single_counter button:hover{
+    border-radius: 10px 0 10px 0;
+    color: #000;
+    background-color: rgba(28, 189, 34, 0.505);
+}
+.single_counter button:active{
+    transform: scale(.9);
+}
+.single_counter p {
+    font-size: 16px;
+    font-family: sans-serif;
+    padding-bottom: 9px;
+    text-align: center;
+    /* padding-left: 20px; */
+}
+.startBTN {
+    padding: 10px 25px;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: sans-serif;
+    background-color: rgba(0, 13, 255, 0.575);
+    color: rgba(50, 46, 46, 0.822);
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: all linear .1s;
+}
+.startBTN:hover{
+    color:#ffffffbd ;
+    border-radius: 20px 2px 20px 2px;
+}
+.startBTN:active{
+    transform: scale(1.1);
+}
